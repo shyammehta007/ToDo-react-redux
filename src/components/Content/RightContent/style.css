@@ -1,0 +1,57 @@
+.right-content{
+    width: 60%;
+    height: 100%;
+    color: white;
+    border-left: 1px white solid;
+    background-image: linear-gradient(to left,rgb(27, 21, 21),rgb(44, 17, 17));
+}
+
+.preview-heading{
+    display: flex;
+    font-size: 27px;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.preview-title{
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.add-task-button{
+    background-color: rgb(53, 122, 53);
+    border: 1px solid white;
+    margin-left: 20%;
+    height: 25px;
+    width: 40px;
+    color: white;
+}
+
+.task-element{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+.task-completed{
+    height: 20px;
+    width: 20px;
+}
+.task-title{
+    width: 85%;
+    height: 30px;
+    background-color: inherit;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+}
+.task-delete{
+    background-image: url('../../../utills/delete.svg');
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

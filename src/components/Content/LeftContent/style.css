@@ -1,0 +1,51 @@
+
+
+.left-content{
+    width: 40%;
+    height: 100%;
+    color: white;
+    border-right: 1px solid white;
+    background-image: linear-gradient(to right,rgb(27, 21, 21),rgb(44, 17, 17));
+}
+
+.list-container-heading{
+    display: flex;
+    font-size: 27px;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.addListButton{
+    background-color: rgb(53, 122, 53);
+    border: 1px solid white;
+    margin-left: 20%;
+    height: 25px;
+    width: 40px;
+    color: white;
+}
+
+.tasklistelement{
+    padding: 5px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+.tasklist-title{
+    width: 90%;
+    background-color: inherit;
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+    border: 0px;
+}
+
+.tasklist-delete{
+    background-image: url('../../../utills/delete.svg');
+    width: 25px;
+    height: 30px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.content{
+    height: 80vh;
+    background-image: linear-gradient(to right,rgb(29, 14, 14),rgb(59, 42, 42));
+    display: flex;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
